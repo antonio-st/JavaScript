@@ -23,4 +23,7 @@ console.log('2.0 * 2.5 =', product)
 
 
 const quotient = 4.4 / 2.0;
-console.log(quotient)
+console.log('4.4 / 2.0 =', quotient)
+
+const remainder = 11 % 3;
+console.log('11 % 3 =', remainder)
