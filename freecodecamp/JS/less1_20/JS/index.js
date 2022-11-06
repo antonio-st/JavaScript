@@ -39,3 +39,22 @@ function addFive() {
 
 console.log(addThree());
 console.log(addFive());
+
+
+
+
+/*
+Вызовите processArg функцию с аргументом 
+7 и присвойте возвращаемое значение переменной processed.
+ */
+
+// Setup
+let processed = 0;
+
+function processArg(num) {
+    return (num + 3) / 5;
+}
+
+// Only change code below this line
+processed = processArg(7);
+console.log(processed);
