@@ -1,0 +1,79 @@
+<!---
+
+Отрегулируйте отступ элемента
+
+Теперь давайте ненадолго отложим наше приложение Cat Photo и узнаем 
+больше о стилях HTML.
+
+Возможно, вы уже это заметили, но все HTML-элементы по сути представляют 
+собой маленькие прямоугольники.
+
+Три важных свойства определяют пространство, окружающее каждый элемент 
+HTML: padding, border и margin.
+
+Элемент padding контролирует количество пространства между содержимым 
+элемента и его border.
+
+Здесь мы видим, что синее поле и красное поле вложены в желтое поле. 
+Обратите внимание, что в красном поле больше, padding чем в синем.
+
+Когда вы увеличиваете синее поле padding, это увеличивает расстояние 
+( padding) между текстом и границей вокруг него.
+
+Измените padding свой синий ящик, чтобы он соответствовал вашему 
+красному ящику.
+
+
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>lesson 13</title>
+</head>
+
+<body>
+
+    <style>
+        .injected-text {
+            margin-bottom: -25px;
+            text-align: center;
+        }
+
+        .box {
+            border-style: solid;
+            border-color: black;
+            border-width: 5px;
+            text-align: center;
+        }
+
+        .yellow-box {
+            background-color: yellow;
+            padding: 10px;
+        }
+
+        .red-box {
+            background-color: crimson;
+            color: #fff;
+            padding: 20px;
+        }
+
+        .blue-box {
+            background-color: blue;
+            color: #fff;
+            padding: 20px;
+        }
+    </style>
+    <h5 class="injected-text">margin</h5>
+
+    <div class="box yellow-box">
+        <h5 class="box red-box">padding</h5>
+        <h5 class="box blue-box">padding</h5>
+    </div>
+
+
+</body>
+
+</html>
