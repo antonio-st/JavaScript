@@ -6,7 +6,7 @@
     <title>codewars 7</title>
 </head>
 <style>
-    div {
+    .divmain {
         padding: 10px;
         margin: 10px;
         font-family: monospace;
@@ -15,20 +15,41 @@
         border-radius: 5px;
         border-color: antiquewhite;
         background-color: bisque;
+        padding-top: 40px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        padding-left: 40px;
     }
 
-    b {
+    .review {
+        border-radius: 10px;
+        padding: 10px;
+        margin: 10px;
+        font-family: monospace;
+        border: solid;
+        border-color: antiquewhite;
+        background-color: bisque;
         font-size: 16px;
         text-align: center;
+    }
+
+    h3 {
+        font-family: monospace;
+        border: none;
+        background-color: aliceblue;
+        padding: 5px;
+        margin: 5px;
+        border-radius: 10px;
     }
 </style>
 
 <body>
-    <h3> open console for read ! </h3>
 
-    <div>
 
-        <b>Описание: </b>
+    <div class='review'><b>Описание: </b>
+    </div>
+
+    <div class='divmain'>
 
         <DD>Вы спрашиваете маленькую девочку: «Сколько тебе лет?»
         <DD>Она всегда говорит «x лет», где x — случайное число от 0 до 9.
@@ -41,6 +62,9 @@
         <DD>Первым символом в строке всегда является число.
 
     </div>
+
+    <h3> open console for read ! </h3>
+
     <script src="./JS/index.js">
 
     </script>
