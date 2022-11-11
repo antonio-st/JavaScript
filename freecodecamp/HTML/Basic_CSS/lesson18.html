@@ -1,0 +1,68 @@
+<!---
+
+Используйте нотацию по часовой стрелке, чтобы указать отступ элемента
+
+Вместо того, чтобы указывать свойства padding-top, padding-right, 
+padding-bottom, и по padding-left отдельности, вы можете указать 
+их все в одной строке, например:
+
+padding: 10px 20px 10px 20px;
+
+Эти четыре значения работают как часы: верхнее, правое, нижнее, левое и дадут 
+точно такой же результат, как и при использовании инструкций заполнения для конкретной стороны.
+
+Используйте нотацию по часовой стрелке, чтобы задать класс .blue-box a сверху 
+и слева, но только снизу и справа.padding 40px 20px
+
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>lesson 18</title>
+</head>
+
+<body>
+
+    <style>
+        .injected-text {
+            margin-bottom: -25px;
+            text-align: center;
+        }
+
+        .box {
+            border-style: solid;
+            border-color: black;
+            border-width: 5px;
+            text-align: center;
+        }
+
+        .yellow-box {
+            background-color: yellow;
+            padding: 20px 40px 20px 40px;
+        }
+
+        .red-box {
+            background-color: crimson;
+            color: #fff;
+            padding: 20px 40px 20px 40px;
+        }
+
+        .blue-box {
+            background-color: blue;
+            color: #fff;
+            padding: 40px 20px 20px 40px;
+        }
+    </style>
+    <h5 class="injected-text">margin</h5>
+
+    <div class="box yellow-box">
+        <h5 class="box red-box">padding</h5>
+        <h5 class="box blue-box">padding</h5>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+<!---
+
+Используйте нотацию по часовой стрелке для указания поля элемента
+
+Давайте попробуем еще раз, но на marginэтот раз.
+
+Вместо того, чтобы указывать свойства margin-top, margin-right,
+ margin-bottom, и по margin-leftотдельности, вы можете указать их все в 
+ одной строке, например:
+
+margin: 10px 20px 10px 20px;
+
+Эти четыре значения работают как часы: верхнее, правое, нижнее,
+ левое и дадут точно такой же результат, как и использование инструкций 
+ полей для конкретных сторон.
+
+Используйте нотацию по часовой стрелке, чтобы дать элементу с 
+blue-box классом поля 40px сверху и слева, но только 20px снизу и справа.
+
+
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>lesson 19</title>
+</head>
+
+<body>
+
+    <style>
+        .injected-text {
+            margin-bottom: -25px;
+            text-align: center;
+        }
+
+        .box {
+            border-style: solid;
+            border-color: black;
+            border-width: 5px;
+            text-align: center;
+        }
+
+        .yellow-box {
+            background-color: yellow;
+            padding: 20px 40px 20px 40px;
+        }
+
+        .red-box {
+            background-color: crimson;
+            color: #fff;
+            margin: 20px 40px 20px 40px;
+        }
+
+        .blue-box {
+            background-color: blue;
+            color: #fff;
+            margin: 40px 20px 20px 40px;
+        }
+    </style>
+    <h5 class="injected-text">margin</h5>
+
+    <div class="box yellow-box">
+        <h5 class="box red-box">padding</h5>
+        <h5 class="box blue-box">padding</h5>
+    </div>
+
+</body>
+
+</html>
