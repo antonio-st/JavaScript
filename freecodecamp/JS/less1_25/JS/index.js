@@ -14,22 +14,20 @@
 3 ===  3  // true
 3 === '3' // false
 
-Во втором примере 3это Number тип и '3'является String типом.
+Во втором примере 3это Numberтип и '3'является Stringтипом.
 
-Используйте оператор строгого равенства в ifоператоре, чтобы функция 
+Используйте оператор строгого равенства в if операторе, чтобы функция 
 возвращала строку , Equal когда val она строго равна 7.
 
  */
 
-let enterVal = +prompt();
-
+let myNum = prompt('Введите число до 100: ')
 // Setup
-function testStrict(val) {
-    if (val === 7) { // Change this line
-        return "Equal";
+function testNotEqual(val) {
+    if (val != 99) { // Change this line
+        return "Not Equal";
     }
-    return "Not Equal";
+    return "Equal";
 }
 
-
-console.log(testStrict(enterVal));
+console.log(testNotEqual(myNum));
