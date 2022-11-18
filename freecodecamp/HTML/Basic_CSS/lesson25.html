@@ -1,0 +1,63 @@
+<!---
+
+Давайте переопределим ваши классы и и сделаем ваш pink-textэлемент оранжевым, присвоив элементу идентификатор, а затем настроив этот идентификатор.blue-texth1h1
+
+Дайте вашему h1элементу idатрибут orange-text. Помните, стили id выглядят так:
+
+<h1 id="orange-text">
+
+Оставьте классы blue-textи на своем элементе.pink-texth1
+
+Создайте объявление CSS для своего orange-textидентификатора в своем styleэлементе. Вот пример того, как это выглядит:
+
+#brown-text {
+  color: brown;
+}
+
+Примечание. Неважно, объявляете ли вы этот CSS выше или ниже pink-textкласса, поскольку idатрибут всегда будет иметь приоритет.
+Тесты
+
+Ожидание : Ваш h1 элемент должен иметь класс pink-text.
+Ожидание : Ваш h1 элемент должен иметь класс blue-text.
+Ожидание : Ваш h1 элемент должен иметь идентификатор orange-text.
+Ожидание : Должен быть только один h1 элемент.
+Ожидание : Ваш orange-textидентификатор должен иметь декларацию CSS.
+Ожидание : У вас h1не должно быть никаких styleатрибутов.
+
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>lesson 25</title>
+</head>
+
+<body>
+
+    <style>
+        body {
+            background-color: black;
+            font-family: monospace;
+            color: green;
+        }
+
+        .pink-text {
+            color: pink;
+        }
+
+        .blue-text {
+            color: blue;
+        }
+
+        #orange-text {
+            color: orange;
+        }
+    </style>
+    <h1 class='pink-text blue-text' id='orange-text'>Hello World!</h1>
+
+
+</body>
+
+</html>
