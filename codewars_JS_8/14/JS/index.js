@@ -1,10 +1,7 @@
 let myArray = [12, 16, 20]
 function isPythagoreanTriple(integers) {
-    numMyArrayA = integers[0];
-    numMyArrayB = integers[1];
-    numMyArrayC = integers[2];
-    // `${elmyArraytwo} ${elmyArrayRes}`
-    return numMyArrayA ** 2 + numMyArrayB ** 2 == numMyArrayC ** 2;
-
+    integers.sort((a, b) => a - b)
+    const [a, b, c] = integers;
+    return Math.pow(c, 2) === Math.pow(a, 2) + Math.pow(b, 2);
 }
 console.log(isPythagoreanTriple(myArray));

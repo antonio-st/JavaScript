@@ -1,0 +1,1 @@
+## Java Script / CodeWars - Invert values ##
