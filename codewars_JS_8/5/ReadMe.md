@@ -1,0 +1,1 @@
+## Java Script / CodeWars - Third Angle of a Triangle ##
