@@ -1,9 +1,13 @@
- codewars_JS_8 - задачи 8 уровня по JS
+<P> 1. <B>codewars_JS_8 </B> - задачи 8 уровня по JS </P>
 
- freecodecamp - уроки по HTML/CSS/JS  (https://www.freecodecamp.org/learn/responsive-web-design/ , https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures)
+<P> 2. <B> freecodecamp </B> - уроки по HTML/CSS/JS  </P>
+ 
++ https://www.freecodecamp.org/learn/responsive-web-design/ ,
++ https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures)
 
- html_academy/basic_html_css  - код с занятий html_academy FE базовый курс 
+<P> 3. <B> html_academy/basic_html_css </B>  - код с занятий html_academy FE базовый курс </P>
 
- learn_javascript/Основы_JS - код с сайта https://learn.javascript.ru/
+<P>  4. <B> learn_javascript/Основы_JS </B>  - код с сайта https://learn.javascript.ru/ </P>
 
- it-camasutra_native_js  - уроки Димыча (с уважением :-) ) по нативному JS (https://youtube.com/playlist?list=PLcvhF2Wqh7DPD5sRK3lw4bjBsKdgY2bPi)
+<P>  5. <B> it-camasutra_native_js </B>  - уроки Димыча (с уважением :-) ) по нативному JS (https://youtube.com/playlist?list=PLcvhF2Wqh7DPD5sRK3lw4bjBsKdgY2bPi) </P>
+<P>  6 . <B> JS_it_incubator_start </B>  - Вебинар Старт в JAVA SCRIPT от it-incubator</P>
