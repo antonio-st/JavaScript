@@ -1,9 +1,10 @@
+## Код с моего обучения по Java Script /HTML / CSS ##
 <P> 1. <B>codewars_JS_8 </B> - задачи 8 уровня по JS </P>
 
 <P> 2. <B> freecodecamp </B> - уроки по HTML/CSS/JS  </P>
  
 + https://www.freecodecamp.org/learn/responsive-web-design/ ,
-+ https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures)
++ https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures
 
 <P> 3. <B> html_academy/basic_html_css </B>  - код с занятий html_academy FE базовый курс </P>
 
