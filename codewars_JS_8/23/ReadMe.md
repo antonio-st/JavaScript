@@ -1,0 +1,1 @@
+## Java Script / CodeWars - Function 2 - squaring an argument ##

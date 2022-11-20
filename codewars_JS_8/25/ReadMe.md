@@ -1,0 +1,1 @@
+## Java Script / CodeWars - String Templates - Bug Fixing #5 ##

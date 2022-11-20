@@ -1,0 +1,1 @@
+## Java Script / CodeWars - Sum The Strings ##
