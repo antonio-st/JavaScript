@@ -1,0 +1,1 @@
+## Java Script / CodeWars - Find Maximum and Minimum Values of a List ##

@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>codewars 18</title>
+    <title>codewars 19</title>
 </head>
 <style>
     .divmain {
@@ -51,13 +51,29 @@
 
     <div class='divmain'>
 
-        <p>Create a method none? (JS none) that accepts an array and a block (JS: a function), and returns true if the
-            block (/function) returns true for none of the items in the array. An empty list should return true.
-        </p>
         <p>
-            Создать метод none (JS none), который принимает массив и блок (JS: функция) и возвращает true, если блок
-            (/функция) не возвращает true ни для одного из элементов массива. Пустой список должен возвращать true.
+            Определите String.prototype.toAlternatingCase (или аналогичную функцию/метод, например
+            to_alternating_case/toAlternatingCase/ToAlternatingCase на выбранном вами языке; подробности см. в исходном
+            решении), чтобы каждая строчная буква становилась прописной, а каждая прописная буква становилась строчной.
+            Например:
+
         </p>
+
+        <code>
+    "hello world".toAlternatingCase() === "HELLO WORLD"
+    "HELLO WORLD".toAlternatingCase() === "hello world"
+    "hello WORLD".toAlternatingCase() === "HELLO world"
+    "HeLLo WoRLD".toAlternatingCase() === "hEllO wOrld"
+    "12345".toAlternatingCase()       === "12345"    // Non-alphabetical characters are unaffected
+    "1a2b3c4d5e".toAlternatingCase()  === "1A2B3C4D5E"
+    "String.prototype.toAlternatingCase".toAlternatingCase() === 
+    "sTRING.PROTOTYPE.TOaLTERNATINGcASE"
+
+        </code>
+
+
+
+
 
     </div>
 

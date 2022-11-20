@@ -1,0 +1,1 @@
+## Java Script / CodeWars - altERnaTIng cAsE <=> ALTerNAtiNG CaSe ##
