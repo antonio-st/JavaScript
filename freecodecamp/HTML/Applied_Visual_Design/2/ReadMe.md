@@ -1,14 +1,13 @@
-## Код с моего обучения по Java Script /HTML / CSS ##
-<P> 1. <B>codewars_JS_8 </B> - задачи 8 уровня по JS </P>
+## Отрегулируйте ширину элемента, используя свойство ширины ##
 
-<P> 2. <B> freecodecamp </B> - уроки по HTML/CSS/JS  </P>
- 
-+ https://www.freecodecamp.org/learn/responsive-web-design/ ,
-+ https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures
 
-<P> 3. <B> html_academy/basic_html_css </B>  - код с занятий html_academy FE базовый курс </P>
 
-<P>  4. <B> learn_javascript/Основы_JS </B>  - код с сайта https://learn.javascript.ru/ </P>
+<p> Вы можете указать ширину элемента, используя widthсвойство в CSS. Значения могут быть указаны в относительных единицах длины (таких как em), абсолютных единицах длины (таких как px) или в процентах от содержащего их родительского элемента. Вот пример, который изменяет ширину изображения на 220 пикселей:
 
-<P>  5. <B> it-camasutra_native_js </B>  - уроки Димыча (с уважением :-) ) по нативному JS (https://youtube.com/playlist?list=PLcvhF2Wqh7DPD5sRK3lw4bjBsKdgY2bPi) </P>
-<P>  6 . <B> JS_it_incubator_start </B>  - Вебинар Старт в JAVA SCRIPT от it-incubator</P>
+</p>
+
+img {
+  width: 220px;
+}
+
+<p> Добавьте width свойство ко всей карточке и установите для него абсолютное значение 245 пикселей. Используйте fullCardкласс для выбора элемента. </p>
