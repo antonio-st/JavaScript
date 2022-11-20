@@ -1,0 +1,1 @@
+## Java Script / CodeWars - Return to Sanity ##
