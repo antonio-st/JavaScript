@@ -1,0 +1,1 @@
+## Java Script / CodeWars - Enumerable Magic #4 - True for None? ##
