@@ -1,0 +1,1 @@
+## Java Script / CodeWars - Beginner - Reduce but Grow! ##

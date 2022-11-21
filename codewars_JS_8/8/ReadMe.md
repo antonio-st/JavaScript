@@ -1,0 +1,1 @@
+## Java Script / CodeWars - Safen User Input Part I - htmlspecialchars ##
