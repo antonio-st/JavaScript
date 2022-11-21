@@ -1,0 +1,1 @@
+## Java Script / CodeWars - Remove First and Last Character ##
