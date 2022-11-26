@@ -1,5 +1,5 @@
 ## CSS HTML ##
-    > opacity
+    <p>opacity
     + Значение 1 непрозрачно, то есть совсем непрозрачно.
     + Значение 0,5 означает полупрозрачность.
     + Значение 0 полностью прозрачно.
@@ -11,30 +11,32 @@
     opacity: 0.7;```
     </code>
 
-     > box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+     <p>box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23); </p>
       + тень для элемента
 
-     > border: 1px solid #ccc;
+     <p>border: 1px solid #ccc;
         + рамка
+  </p>
 
-     >  border-radius: 5px;
+     <p> border-radius: 5px;
         + округляем края
+</p>
+     <p>background-color: rgba(45, 45, 45, 0.1);
 
-     > background-color: rgba(45, 45, 45, 0.1);
-
-     > padding: 10px;
+     <p>padding: 10px;
        + внутренний отступ
-
-    > margin: 10px 5px;
+</p>
+    <p>margin: 10px 5px;
         + внешний отступ
-  
-    >  text-align: justify;
+ </p> 
+    <p> text-align: justify;
         + выравнивание текста
-    > <strong> <em>
+  </p>
+    <p><strong> </p>
         + наклонный
         + подчеркнутый текст
 
-    > text-transform: 
+    <p>text-transform: 
 
       + lowercase	"transform me"
       + uppercase	"TRANSFORM ME"
@@ -43,5 +45,5 @@
       + inherit	Use the text-transform value from the parent element
       + none	Default: Use the original text
 
-    > width: 245px; height: 150px;
+    <p>width: 245px; height: 150px;
         + ширина / высота
