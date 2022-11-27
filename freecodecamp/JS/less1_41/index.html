@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="google" content="notranslate" />
+    <meta http-equiv="Content-Language" content="en_RU" />
+    <title>freecodecamp JS 41</title>
+    <style>
+        pre {
+            background-color: rgb(238, 213, 183);
+            padding-top: 5px;
+        }
+
+        h3 {
+            font-family: monospace;
+            border: none;
+            background-color: aliceblue;
+            margin: 15px;
+            border-radius: 10px;
+            padding: 10px 10px 10px 10px;
+
+        }
+
+        div {
+            font-family: monospace;
+            padding: 20px 20px 20px 20px;
+            background-color: blanchedalmond;
+            margin: 15px 15px 15px 15px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h2> Return Early Pattern for Functions </h2>
+
+        <p>
+
+            Когда returnоператор достигнут, выполнение текущей функции останавливается, и управление возвращается в
+            место вызова. </p>
+
+        <BR>Пример
+        <pre>
+            function myFun() {
+              console.log("Hello");
+              return "World";
+              console.log("byebye")
+            }
+            myFun();
+</pre>
+
+        <p> Приведенное выше отобразит строку Helloв консоли и вернет строку World. 
+            Строка byebye никогда не будет отображаться в консоли, потому что 
+            функция завершает работу на return операторе.
+        </p>
+        <HR>
+
+        <p>Измените функцию abTest так, чтобы, если a или b меньше 0, 
+            функция немедленно завершалась со значением undefined.</p>
+
+            <pre> Подсказка </pre>
+        <p> Помните, что undefined это ключевое слово , а не строка. </p>
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+    <h3> open console for read ! </h3>
+    <script src="./JS/index.js">
+
+    </script>
+</body>
+
+
+</html>

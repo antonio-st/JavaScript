@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="google" content="notranslate" />
+    <meta http-equiv="Content-Language" content="en_RU" />
+    <title>freecodecamp JS 42</title>
+    <style>
+        pre {
+            background-color: rgb(238, 213, 183);
+            padding-top: 10px;
+        }
+
+        h3 {
+            font-family: monospace;
+            border: none;
+            background-color: aliceblue;
+            margin: 15px;
+            border-radius: 10px;
+            padding: 10px 10px 10px 10px;
+
+        }
+
+        div {
+            font-family: monospace;
+            padding: 20px 20px 20px 20px;
+            background-color: blanchedalmond;
+            margin: 15px 15px 15px 15px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h2> Counting Cards </h2>
+
+        <p> Наличие большего количества старших карт в колоде благоприятствует игроку. 
+            <br>Каждой карте присваивается
+            значение в соответствии с таблицей ниже. Когда счет положительный, игрок должен делать большие ставки. 
+            <br>Когда счет равен нулю или отрицательный, игрок должен делать ставку меньше.</p>
+
+            <p>Подсчет изменений Карты </p>
+            <pre>
+            +1      2, 3, 4, 5, 6
+            0       7, 8, 9
+            -1      10, 'J', 'Q', 'К', 'А'
+        </pre>
+
+        <HR>
+            <p> Вы напишете функцию подсчета карт. Он получит cardпараметр, который может быть числом или строкой, и
+            увеличит или уменьшит глобальную countпеременную в соответствии со значением карты (см. таблицу).
+             <br> Затем функция вернет строку с текущим счетчиком и строку Bet, если счетчик положительный или Hold нулевой или
+            отрицательный. 
+            <br>Текущий счет и решение игрока ( Betили Hold) должны быть разделены одним пробелом. </p>
+
+            <DD> <b>Пример выходных данных: </b><BR>-3 Hold или 5 Bet </DD>
+
+            <DD> <b>Совет </DD> </b>
+                <DD> <DD> НЕ сбрасывайте countна 0, когда значение равно 7, 8 или 9.</DD>
+                    <DD> <DD> НЕ возвращайте массив.</DD>
+                        <DD> <DD> НЕ включайте кавычки (одинарные или двойные) в вывод.</DD>
+
+
+
+
+
+
+
+
+    </div>
+
+
+    <h3> open console for read ! </h3>
+    <script src="./JS/index.js">
+
+    </script>
+</body>
+
+
+</html>
