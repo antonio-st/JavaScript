@@ -235,3 +235,29 @@ margin: auto;
 - cyan	  hsl(180, 100%, 50%)
 - blue	  hsl(240, 100%, 50%)
 - magenta	hsl(300, 100%, 50%)
+
+
+<HR>
+
+
+### линейный градиент CSS ###
+- background: linear-gradient(gradient_direction, color 1, color 2, color 3, ...);
+- Первый аргумент задает направление, с которого начинается переход цвета - его можно указать как степень, 
+  + где 90deg делается горизонтальный градиент (слева направо) и 45deg диагональный градиент (снизу слева направо вверх). 
+  + Следующие аргументы определяют порядок цветов, используемых в градиенте.
+
+`Пример:`
+
++ background: linear-gradient(90deg, red, yellow, rgb(204, 2)
+
+
+<HR>
+
+## Функция repeating-linear-gradient() ##
+
+- background: repeating-linear-gradient(
+  - 90deg,
+  - yellow 0px,
+  - blue 40px,
+  - green 40px,
+  - red 80px
