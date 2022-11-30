@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="google" content="notranslate" />
+    <meta http-equiv="Content-Language" content="en_RU" />
+    <title>freecodecamp JS 45</title>
+    <style>
+        pre {
+            background-color: rgb(238, 213, 183);
+            padding-top: 5px;
+        }
+
+        h3 {
+            font-family: monospace;
+            border: none;
+            background-color: aliceblue;
+            margin: 15px;
+            border-radius: 10px;
+            padding: 10px 10px 10px 10px;
+
+        }
+
+        div {
+            font-family: monospace;
+            padding: 20px 20px 20px 20px;
+            background-color: blanchedalmond;
+            margin: 15px 15px 15px 15px;
+            border-radius: 10px;
+        }
+
+        hr {
+            margin: 5px;
+            padding: 5px;
+            border: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h2> Доступ к свойствам объекта с помощью скобочной нотации </h2>
+
+        <p>
+
+
+            Второй способ доступа к свойствам объекта — запись в квадратных скобках ( []). <br>Если в имени свойства
+            объекта, к которому вы пытаетесь получить доступ, есть пробел, вам нужно будет использовать обозначение в
+            квадратных скобках.
+
+            <hr>Однако вы по-прежнему можете использовать скобки для свойств объекта без пробелов.
+
+            </p>
+
+            <hr>Вот пример использования нотации скобок для чтения свойства объекта:
+
+            <pre>
+
+            const myObj = {
+            "Space Name": "Kirk",
+            "More Space": "Spock",
+            "NoSpace": "USS Enterprise"
+            };
+
+            myObj["Space Name"];
+            myObj['More Space'];
+            myObj["NoSpace"];
+
+        </pre>
+
+           <p> myObj["Space Name"]будет строкой Kirk, <br> myObj['More Space']будет строкой Spockи myObj["NoSpace"]будет строкой
+            USS Enterprise.
+
+            <hr>Обратите внимание, что имена свойств с пробелами в них должны быть в кавычках (одинарных или двойных).
+
+            <hr> Прочитайте значения свойств an entreeи the drinkиспользования testObjскобочной нотации и присвойте их
+            соответственно entreeValueи drinkValue.
+
+
+        </p>
+
+
+
+
+        
+
+
+        
+
+
+    </div>
+
+
+    <h3> open console for read ! </h3>
+    <script src="./JS/index.js">
+
+    </script>
+</body>
+
+
+</html>

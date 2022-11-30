@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="google" content="notranslate" />
+    <meta http-equiv="Content-Language" content="en_RU" />
+    <title>freecodecamp JS 46</title>
+    <style>
+        pre {
+            background-color: rgb(238, 213, 183);
+            padding-top: 5px;
+        }
+
+        h3 {
+            font-family: monospace;
+            border: none;
+            background-color: aliceblue;
+            margin: 15px;
+            border-radius: 10px;
+            padding: 10px 10px 10px 10px;
+
+        }
+
+        div {
+            font-family: monospace;
+            padding: 20px 20px 20px 20px;
+            background-color: blanchedalmond;
+            margin: 15px 15px 15px 15px;
+            border-radius: 10px;
+        }
+
+        hr {
+            margin: 5px;
+            padding: 5px;
+            border: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h2> Доступ к свойствам объекта с помощью переменных </h2>
+
+        <p>
+
+
+
+            Еще одно использование квадратных скобок для объектов — доступ к свойству, которое хранится как значение
+            переменной. Это может быть очень полезно для перебора свойств объекта или при доступе к таблице поиска.
+        </p>
+        <hr>Вот пример использования переменной для доступа к свойству:
+    <pre>
+        const dogs = {
+        Fido: "Mutt",
+        Hunter: "Doberman",
+        Snoopie: "Beagle"
+        };
+<hr>
+        const myDog = "Hunter";
+        const myBreed = dogs[myDog];
+        console.log(myBreed);
+
+
+    </pre>
+        <p>
+            Строка Dobermanбудет отображаться в консоли.
+
+            <hr>Обратите внимание, что мы не используем кавычки вокруг имени переменной при использовании его для доступа к
+            свойству, потому что мы используем значение переменной, а не имя .
+
+            <hr>Установите playerNumberпеременную в 16. Затем используйте переменную, чтобы найти имя игрока и присвоить его
+            player.
+
+
+        </p>
+
+
+
+
+
+
+
+       
+
+
+    </div>
+
+
+    <h3> open console for read ! </h3>
+    <script src="./JS/index.js">
+
+    </script>
+</body>
+
+
+</html>
