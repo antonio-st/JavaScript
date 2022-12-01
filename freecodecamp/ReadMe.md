@@ -261,3 +261,25 @@ margin: auto;
   - blue 40px,
   - green 40px,
   - red 80px
+
+
+
+<HR>
+
+background: url('https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png')
+
+- фон
+
+<HR>
+
+- p {
+-  `transform: scale(2);`
+- }
+
+
++ Чтобы изменить масштаб элемента, в CSS есть transformсвойство, а также его scale() 
+функция. 
+
+Следующий пример кода удваивает размер всех элементов абзаца на странице:
+
+
