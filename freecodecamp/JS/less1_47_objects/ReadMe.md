@@ -23,7 +23,7 @@ Update the myDog object's name property. Let's change her name from Coder to Hap
 
 - После того, как вы создали объект JavaScript, вы можете обновить его свойства в любое время так же, как и любую другую переменную. Для обновления можно использовать либо точку, либо скобки.
 
-- Например, давайте посмотрим на ourDog:
+Например, давайте посмотрим на ourDog:
 
     const ourDog = {
       "name": "Camper",
