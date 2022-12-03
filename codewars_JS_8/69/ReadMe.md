@@ -14,8 +14,10 @@ wait is the number of people waiting to get on to the bus excluding the driver.
 If there is enough space, return 0, and if there isn't, return the number of passengers he can't take.
 Usage Examples:
 
-> cap = 10, on = 5, wait = 5 --> 0 # He can fit all 5 passengers
-> cap = 100, on = 60, wait = 50 --> 10 # He can't fit 10 of the 50 waiting
+> cap = 10, on = 5, wait = 5 --> 0 
+>     # He can fit all 5 passengers
+> cap = 100, on = 60, wait = 50 --> 10 
+>      # He can't fit 10 of the 50 waiting
 
 <hr>
 
@@ -29,8 +31,10 @@ Usage Examples:
 Вам нужно написать функцию, которая принимает три параметра:
 
 cap — это количество человек, которое может вместить автобус, не считая водителя.
+
 on - количество людей в автобусе, не считая водителя.
-ожидание - это количество людей, ожидающих посадки в автобус, исключая водителя.
+
+wait - это количество людей, ожидающих посадки в автобус, исключая водителя.
 
 Если места достаточно, вернуть 0, а если нет, вернуть количество пассажиров, которых он не может взять.
 Примеры использования:
