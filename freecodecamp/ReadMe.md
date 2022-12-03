@@ -283,3 +283,23 @@ background: url('https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png')
 Следующий пример кода удваивает размер всех элементов абзаца на странице:
 
 
+<hr>
+
+- #bottom {
+- background-color: blue;
+- transform: skewX(24deg);
+- }
+
+Следующий код `transform: skewX(24deg)` наклоняет элемент абзаца на 24 градуса по оси X. (можно использовать обратный наклон -32)
+
+<hr>
+
+
+- #top {
+-  transform: skewY(-10deg);
+
+- }- 
+
+`skewY()` свойство искажает элемент по оси Y (вертикальной).
+
+<hr>
