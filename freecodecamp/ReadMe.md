@@ -303,3 +303,19 @@ background: url('https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png')
 `skewY()` свойство искажает элемент по оси Y (вертикальной).
 
 <hr>
+
+- .center {
+ - position: absolute;
+ - margin: auto;
+ - top: 0;
+ - right: 0;
+ - bottom: 0;
+ - left: 0;
+-  width: 100px;
+ - height: 100px;
+ - background-color: transparent;
+ - border-radius: 50%;
+ - box-shadow: 25px 10px 0px 0px blue;
+- }
+
+Луна
