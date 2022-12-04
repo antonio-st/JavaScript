@@ -319,3 +319,50 @@ background: url('https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png')
 - }
 
 Луна
+
+
+<hr>
+
+<style>
+.heart {
+position: absolute;
+margin: auto;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+background-color: pink;
+height: 50px;
+width: 50px;
+transform: ;
+}
+.heart::after {
+background-color: blue;
+content: "";
+border-radius: 25%;
+position: absolute;
+width: 50px;
+height: 50px;
+top: 0px;
+left: 25px;
+}
+.heart::before {
+content: ;
+background-color: pink;
+border-radius: 50%;
+position: absolute;
+width: 50px;
+height: 50px;
+top: -25px;
+left: 0px;
+}
+</style>
+<div class="heart"></div>
+
+> Превратите элемент на экране в сердце.
+ + ::before и ::after псевдоэлементы. 
+ + ::before создает псевдоэлемент, который является первым дочерним элементом выбранного элемента; ::after создает псевдоэлемент, 
+ который является последним дочерним элементом выбранного элемента
+
+
+<hr>
