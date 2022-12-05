@@ -366,3 +366,21 @@ left: 0px;
 
 
 <hr>
+
+
+#anim {
+animation-name: colorful;
+animation-duration: 3s;
+}
+
+@keyframes colorful {
+0% {
+background-color: blue;
+}
+100% {
+background-color: yellow;
+}
+}
+
+> анимирование элемента
+<HR>
