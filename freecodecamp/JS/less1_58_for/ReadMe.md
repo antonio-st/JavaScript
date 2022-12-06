@@ -1,0 +1,46 @@
+## Iterate Odd Numbers With a For Loop
+
+For loops don't have to iterate one at a time. By changing our final-expression, we can count by even numbers.
+
+We'll start at i = 0 and loop while i < 10. We'll increment i by 2 each loop with i += 2.
+
+```
+
+const ourArray = [];
+
+for (let i = 0; i < 10; i += 2) {
+  ourArray.push(i);
+}
+
+```
+
+ourArray will now contain [0, 2, 4, 6, 8]. Let's change our initialization so we can count by odd numbers.
+
+---
+Push the odd numbers from 1 through 9 to myArray using a for loop.
+
+---
+
+
+## Перебор нечетных чисел с помощью цикла for
+
+Циклы for не должны повторяться по одному. Изменив наш final-expression, мы можем считать четными числами.
+
+Мы начнем с i = 0и зациклим, пока i < 10. Мы будем увеличивать iна 2 каждый цикл с помощью i += 2.
+```
+const ourArray = [];
+
+
+for (let i = 0; i < 10; i += 2) {
+  ourArray.push(i);
+}
+
+```
+
+ourArrayтеперь будет содержать [0, 2, 4, 6, 8]. Давайте изменим наш initialization, чтобы мы могли считать нечетными числами.
+
+---
+Вставьте нечетные числа от 1 до 9 в myArrayцикл for.
+
+
+
