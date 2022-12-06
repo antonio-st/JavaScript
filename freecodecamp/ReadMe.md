@@ -4,15 +4,20 @@
   + Значение 1 непрозрачно, то есть совсем непрозрачно.
   + Значение 0,5 означает полупрозрачность.
   + Значение 0 полностью прозрачно.
-    
+  
+```
   .links {
     text-align: left;
     color: black;
     opacity: 0.7;
 
+```
 <HR>
 
-  `box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);` 
+```
+  `box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+  ```
   + тень для элемента
 
 
@@ -80,16 +85,19 @@
 
 <HR>
 
-
+```
 h2 {
 `position: relative;`
 `top: 15px;` 
 `bottom: 10px`
 }
 
+```
 - Когда для позиции элемента установлено значение relative, это позволяет вам указать, как CSS должен перемещать его относительно его текущей позиции в обычном потоке страницы. 
 - Он сочетается со свойствами смещения CSS left или right, и top или bottom. 
 - Они говорят, на сколько пикселей, процентов или ems нужно отодвинуть элемент от того места, где он обычно расположен.
+
+```
 
 h2 {
 `position: relative;`
@@ -97,6 +105,7 @@ h2 {
 `bottom: 10px;`
 }
 
+```
   - данный код сместит элемент снизу вверх (bottom) и слева направо (left)
 
 <HR>
@@ -118,24 +127,28 @@ h2 {
 
 <HR>
 
+```
+  a {
+ text-decoration: none;
+  }
 
-  `a {`
-  `text-decoration: none;`
-  `}`
-
+```
   - убрать с сылок подчеркивание для меню
 
 <HR>
 
-`nav li {`
-`display: inline;`
-`margin-right: 20px;`
-`}`
+```
 
+nav li {`
+display: inline;`
+margin-right: 20px;`
+}
+```
 - расположит меню в одну строку с отступом
 
 <HR>
 
+```
 #navbar {
 position: fixed;
 top: 0px;
@@ -144,23 +157,26 @@ width: 100%;
 background-color: #767676;
 }
 
+```
+
 `position: fixed;` - сделать меню неподвижным
   Одно ключевое различие между позициями fixed и absolute заключается в том, что элемент с фиксированной позицией не будет перемещаться при прокрутке пользователем.
 
 <HR>
 
+```
 
-`#left {`
-`float: left;`
-`width: 50%;`
-`}`
+#left {`
+float: left;`
+width: 50%;`
+}
 
 
-`#right {`
-`float: right;`
-`width: 40%;`
-`}`
-
+#right {`
+float: right;`
+width: 40%;`
+}
+```
   - Следующий инструмент позиционирования на самом деле не использует position, а устанавливает float свойство элемента. 
   - Плавающие элементы удаляются из обычного потока документа и помещаются либо в родительский элемент, left  либо right в родительский элемент.
   - Он обычно используется со width свойством, чтобы указать, сколько горизонтального пространства требуется плавающему элементу.
@@ -170,13 +186,13 @@ background-color: #767676;
 
 <HR>
 
-
-`.first {`
-` background-color: red;`
-`position: absolute;`
-`z-index: 2;`
-`}`
-
+```
+.first {`
+ background-color: red;`
+position: absolute;`
+z-index: 2;`
+}
+```
   - `z-index` свойство может указывать порядок расположения элементов друг над другом. 
   Это должно быть целое число (т.е. целое число, а не десятичное), и более высокие значения z-index свойства элемента перемещают его 
   выше в стеке, чем те, у которых более низкие значения.
@@ -186,6 +202,8 @@ background-color: #767676;
 
 <HR>
 
+```
+
 div {
 background-color: blue;
 height: 100px;
@@ -194,6 +212,7 @@ margin: auto;
 
 }
 
+```
 - Центрировать элемент по горизонтали, используя свойство `margin`
 
 - Этот метод работает и для изображений. Изображения являются встроенными элементами по умолчанию, но их можно изменить на блочные элементы, если задать для `display` свойства значение `block`.
@@ -201,16 +220,19 @@ margin: auto;
 
 <HR>
 
-`div {`
-`display: inline-block;`
-`height: 100px;`
-`width: 100px;`
+```
+
+div {
+display: inline-block;
+height: 100px;
+width: 100px;
 }
 
-`<div class="blue"></div>`
+<div class="blue"></div>
 
-`<div class="white"></div>`
+<div class="white"></div>
 
+```
 - расположить в одну линию
 
 <HR>
@@ -241,7 +263,7 @@ margin: auto;
 
 
 ### линейный градиент CSS ###
-- background: linear-gradient(gradient_direction, color 1, color 2, color 3, ...);
+  ``` background: linear-gradient(gradient_direction, color 1, color 2, color 3, ...);```
 - Первый аргумент задает направление, с которого начинается переход цвета - его можно указать как степень, 
   + где 90deg делается горизонтальный градиент (слева направо) и 45deg диагональный градиент (снизу слева направо вверх). 
   + Следующие аргументы определяют порядок цветов, используемых в градиенте.
@@ -255,14 +277,16 @@ margin: auto;
 
 ## Функция repeating-linear-gradient() ##
 
-- background: repeating-linear-gradient(
-  - 90deg,
-  - yellow 0px,
-  - blue 40px,
-  - green 40px,
-  - red 80px
+```
+ background: repeating-linear-gradient(
+   90deg,
+   yellow 0px,
+   blue 40px,
+   green 40px,
+   red 80px
+  )
 
-
+```
 
 <HR>
 
@@ -272,10 +296,11 @@ background: url('https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png')
 
 <HR>
 
-- p {
--  `transform: scale(2);`
-- }
-
+```
+ p {
+  transform: scale(2);`
+}
+```
 
 + Чтобы изменить масштаб элемента, в CSS есть transformсвойство, а также его scale() 
 функция. 
@@ -285,11 +310,12 @@ background: url('https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png')
 
 <hr>
 
-- #bottom {
-- background-color: blue;
-- transform: skewX(24deg);
-- }
-
+```
+ #bottom {
+ background-color: blue;
+ transform: skewX(24deg);
+ }
+```
 Следующий код `transform: skewX(24deg)` наклоняет элемент абзаца на 24 градуса по оси X. (можно использовать обратный наклон -32)
 
 <hr>
@@ -304,25 +330,26 @@ background: url('https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png')
 
 <hr>
 
-- .center {
- - position: absolute;
- - margin: auto;
- - top: 0;
- - right: 0;
- - bottom: 0;
- - left: 0;
--  width: 100px;
- - height: 100px;
- - background-color: transparent;
- - border-radius: 50%;
- - box-shadow: 25px 10px 0px 0px blue;
-- }
-
+```
+.center {
+position: absolute;
+margin: auto;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;- width: 100px;
+height: 100px;
+background-color: transparent;
+border-radius: 50%;
+box-shadow: 25px 10px 0px 0px blue;
+}
+```
 Луна
 
 
 <hr>
 
+```
 <style>
 .heart {
 position: absolute;
@@ -358,7 +385,7 @@ left: 0px;
 }
 </style>
 <div class="heart"></div>
-
+```
 > Превратите элемент на экране в сердце.
  + ::before и ::after псевдоэлементы. 
  + ::before создает псевдоэлемент, который является первым дочерним элементом выбранного элемента; ::after создает псевдоэлемент, 
@@ -386,7 +413,7 @@ background-color: yellow;
 > 
 <HR>
 
-
+```
 button {
 border-radius: 5px;
 color: white;
@@ -407,12 +434,13 @@ animation-fill-mode: forwards;
     background-color: #4791d0;
 }
 }
-
+```
 > анимация для кнопок
 
 
 <hr>
 
+```
 div {
 height: 40px;
 width: 70%;
@@ -448,7 +476,7 @@ top: 0px;
 left: -25px;
 }
 }
-
+```
 > анимация при включении position: relative
 
 <hr>
