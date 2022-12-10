@@ -1,17 +1,27 @@
-## Код с моего обучения по Java Script /HTML / CSS ##
-1. <B>codewars_JS_8 </B> - задачи 8 уровня по JS
+## Код с моего обучения по Java Script / HTML / CSS
 
-2. <B> freecodecamp </B> - уроки по HTML/CSS/JS
+
++ ### codewars_JS_8 - 
+  > задачи 8 уровня по JS
+
++ ### freecodecamp </B> - уроки по HTML/CSS/JS
  
- + `https://www.freecodecamp.org/learn/responsive-web-design/` ,
- + `https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures`
+    >  https://www.freecodecamp.org/learn/responsive-web-design/ ,
 
- 3. <B>html_academy/basic_html_css </B>  - код с занятий html_academy FE базовый курс
+    > https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures
 
- 4. <B>learn_javascript/Основы_JS </B>  - код с сайта `https://learn.javascript.ru/`
++ ### html_academy/basic_html_css   
+  > код с занятий html_academy FE базовый курс
 
- 5. <B>it-camasutra_native_js </B>  - уроки Димыча по нативному JS
++ ### learn_javascript/Основы_JS 
+  > код с сайта https://learn.javascript.ru/
 
-+ `(https://youtube.com/playlist?list=PLcvhF2Wqh7DPD5sRK3lw4bjBsKdgY2bPi)`
++ ### it-camasutra_native_js </B>  
+    > уроки Димыча по нативному JS:<br>
+    > https://youtube.com/playlist?list=PLcvhF2Wqh7DPD5sRK3lw4bjBsKdgY2bPi`
   
-6. <B> JS_it_incubator_start </B>  - Вебинар Старт в JAVA SCRIPT от it-incubator
++ ### JS_it_incubator_start 
+  > Мастер класс по JAVA SCRIPT от IT-INCUBATOR
+
++ ### html_and_css_basics_iticubator
+  > Мастер класс по верстке сайта по шаблону от IT-INCUBATOR
